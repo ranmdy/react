@@ -1,6 +1,7 @@
-let age = "15"
-console.log(age)
+let age = 12;
 
-function add(){
-    console.log("Hello World")
+if (age >= 18) {
+  console.log("You are an adult, you can accss the website.");
+} else {
+  console.log("You are a minor, get the fuck out of here.");
 }
